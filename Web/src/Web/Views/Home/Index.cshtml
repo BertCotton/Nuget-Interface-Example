@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Web.ViewModels.UserViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>User: @Model.User.Name</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2">Id:</div>
+        <div class="col-lg-5">@Model.User.Id</div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2">Email:</div>
+        <div class="col-lg-5">@Model.User.Email</div>
+    </div>
+</div>

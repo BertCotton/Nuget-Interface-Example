@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE71BB6F-D2C7-4370-AEB4-889BC1FA85E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B7955964-4757-4F4B-9E76-4B19C955CEED}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		.nuget\nuget.config = .nuget\nuget.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Interfaces", "src\Interfaces\Interfaces.xproj", "{427F86DB-A793-4A07-B949-F5E59B839744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{427F86DB-A793-4A07-B949-F5E59B839744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427F86DB-A793-4A07-B949-F5E59B839744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427F86DB-A793-4A07-B949-F5E59B839744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427F86DB-A793-4A07-B949-F5E59B839744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{427F86DB-A793-4A07-B949-F5E59B839744} = {DE71BB6F-D2C7-4370-AEB4-889BC1FA85E5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿{
+  "components": [
+    {
+
+      "type": "Domain.User,Domain",
+      "services": [
+        {
+          "type": "Interfaces.IUser, Interfaces"
+        }
+      ],
+      "injectProperties": true,
+      "properties": {
+        "Id": 1,
+        "Name": "TestUser",
+        "Email": "Tester@Testing.com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE549C59-1BD6-404C-8507-767D1BE95F2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FBE6AA27-5F49-4C66-B8BC-6ED44D8B8AA9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		.nuget\nuget.config = .nuget\nuget.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Web", "src\Web\Web.xproj", "{173242A5-4A28-4CF0-BD43-E3D8A82BF279}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Domain", "src\Domain\Domain.xproj", "{1D7576CD-0EE8-4B57-AAF9-160B3D762A53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{173242A5-4A28-4CF0-BD43-E3D8A82BF279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173242A5-4A28-4CF0-BD43-E3D8A82BF279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173242A5-4A28-4CF0-BD43-E3D8A82BF279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173242A5-4A28-4CF0-BD43-E3D8A82BF279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7576CD-0EE8-4B57-AAF9-160B3D762A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7576CD-0EE8-4B57-AAF9-160B3D762A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7576CD-0EE8-4B57-AAF9-160B3D762A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7576CD-0EE8-4B57-AAF9-160B3D762A53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{173242A5-4A28-4CF0-BD43-E3D8A82BF279} = {EE549C59-1BD6-404C-8507-767D1BE95F2B}
+		{1D7576CD-0EE8-4B57-AAF9-160B3D762A53} = {EE549C59-1BD6-404C-8507-767D1BE95F2B}
+	EndGlobalSection
+EndGlobal
