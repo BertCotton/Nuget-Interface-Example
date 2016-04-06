@@ -18,6 +18,6 @@
     }
   },
   "dependencies": {
-    "Interfaces": "1.0.0"
+    "Interfaces": "1.0.0-*"
   }
 }
